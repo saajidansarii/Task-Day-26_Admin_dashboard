@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+  height: 760px;
+  background-color: rgb(214, 214, 214);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Home{
+  margin-top:10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.StudentHome{
+  height: 400px;
+  width: 400px;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.Students{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 600px;
+  /* border: 2px solid red; */
+}
+.mentorCard{
+  background-color: white;
+  border-radius: 10px;
+}
+.studentHeading{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.withClasses{
+  height: 100%;
+  width:40%;
+  flex-wrap: wrap;  
+  /* border: 2px solid green; */
+  /* margin-top: 10%; */
+}
+.withoutClass{
+  margin-top: 2%;
+  height: 100%;
+  width:40%;
+  flex-wrap: wrap;  
+  background-color: white;
+  border-radius: 10px;  
+  /* border: 2px solid blue; */
+  /* margin-top: 10%; */
+}
+.classtoggle{
+  /* border: 2px solid black; */
+  height: 100%;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+.ClassDetails{
+  width:100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+.formdata{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-top:2%;
+  margin-left:30%;
+  
+  /* margin-top:10px; */
+}
+.ClassSelection{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.EachClassOutLine{
+  height: min-content;
+  width: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Details{
+  margin-top: 10%;
+  margin-left: 30%;
+  height: auto;
+  width: 500px;
+  border: 2px solid;
+}
+
+.Mentors{
+  margin-left: 15%;
+  height: 1000px;
+  width: 1000px;
+  /* border: 2px solid red; */
+}
+
+.mentorsStudents{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.webdevelopment{
+  margin: 5%;
+}
+.fullstackdevelopmet{
+  width: 600px;
+  margin: 5%;
+}
+.MentorStudent{
+  height: 100%;
+  width: 500px;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+.MentorBtn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+/* h1:hover{  
+  background-color: rgb(167, 123, 173) !important;
+  color: white !important;
+  transition: all 1000ms ease;
+  border-radius: 10px;
+} */
+/* .MentorStudent:hover{
+  width: 105%;
+  background-color: rgb(167, 123, 173) !important;
+  color: white !important;
+  transition: all 1000ms ease;
+  border-radius: 10px;
+} */
+
+.Students{
+  height: min-content;
+}
+.mentorsBack{
+background-color: white;
+height: min-content;
+width: auto;
+border-radius: 10px;
+}
+
+.Mentor{
+  height: 100%;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+img{
+
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
